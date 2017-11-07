@@ -1,0 +1,36 @@
+.tes{
+    color: red;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+}
+
+.tinted-image {    
+/* background-image: url("../3.jpg");
+height: 60%;
+background-size: cover */
+
+
+background: 
+/* top, transparent red, faked with gradient */ 
+linear-gradient(
+  rgba(49, 48, 48, 0.7), 
+  rgba(26, 25, 25, 0.5)
+),
+/* bottom, image */
+url("../3.jpg");
+background-size: cover;
+height: 60%;
+width: 100%
+  }
+  .tinted-image h1{
+      text-align: center;
+      padding-top: 10%;
+      color: #fff
+  }
+.down{
+    padding-bottom:50px; 
+}
+/* Place text in the middle of the image */
